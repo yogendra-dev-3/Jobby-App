@@ -1,0 +1,81 @@
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-heading {
+  color: white;
+  align-self: center;
+}
+
+.failure-view-container {
+  width: 600px;
+  height: 500px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 300px;
+}
+
+.failure-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.failure-tag {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.retry-button {
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.jobs-loader-container {
+  margin-right: 00px;
+}
+
+.jobs-list-container {
+  width: 900px;
+
+  align-self: flex-end;
+}
+
+.container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.search {
+  padding: 5px;
+  border: 2px solid #7e858e;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+}
+
+.nothing {
+  color: white;
+}

@@ -1,0 +1,41 @@
+.filter {
+  color: white;
+}
+
+.filter-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100vh;
+  background-color: grey;
+}
+
+.types-employment-card {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.employment-type-heading {
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-top: 20px;
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox-salary {
+  cursor: pointer;
+}
